@@ -800,13 +800,13 @@
     width:100%;
     padding:40px 100px;
 }
-.contactus .conntactustext{
+.contactus .contactustext{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 32px;
 }
-.contactus .conntactustext .gamr{
+.contactus .contactustext .gamr{
     color: white;
     font-weight: 500;
 }
