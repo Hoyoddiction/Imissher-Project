@@ -1285,3 +1285,34 @@
     grid-row-start: 147;
 }
 }
+@media (max-width:991px){
+    .contactus{
+        padding: 20px;
+    }
+    .box{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "form"
+        "info"
+        "map";
+    }
+    .google{
+      min-height: 300px;  
+    }
+    .form-box .rowss{
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+    .boxinput{
+        width: 100%;
+    }
+    .contact{
+        padding: 30px;
+    }
+    .google{
+        min-height: 300px;
+        padding: 0;
+    }
+}
