@@ -13631,19 +13631,33 @@
     font-size:21px;
 }
 }
-.container2{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background:linear-gradient(90deg,darkolivegreen,rgb(214, 240, 171));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
     width: 80%;
     background-color: white;
     border-radius: 6px;
     padding: 30px 60px 40px 40px;
     box-shadow: 0 5px 10px rgb(0, 0, 0) ;
 }
-.container2 .contents{
+.container .content{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.container2 .contents .left-side{
+.container .content .left-side{
     width: 25%;
     height: 100%;
     margin-top: 15px;
@@ -13653,7 +13667,7 @@
     justify-content: center;
     position: relative;
 }
-.contents .left-side::before{
+.content .left-side::before{
 content:'';
 position: absolute;
 height: 70%;
@@ -13664,30 +13678,30 @@ transform: translateY(-50%);
 background: darkslategray;
 }
 
-.contents .left-side .details{
+.content .left-side .details{
     margin: 14px;
     text-align: center;
 }
-.contents .left-side .details i{
+.content .left-side .details i{
     font-size: 30px;
     color: darkolivegreen;
     margin-bottom: 10px;
 }
-.contents .left-side .details .topic{
+.content .left-side .details .topic{
     font-size: 18px;
     font-weight: 500;
 }
-.contents .left-side .details .text-one, 
-.contents .left-side .details .text-two{
+.content .left-side .details .text-one, 
+.content .left-side .details .text-two{
     font-size: 14px;
     color: darkgray;
 }
 
-.container2 .contents .right-side{
+.container .content .right-side{
     width: 75%;
     margin-left: 75px;
 }
-.contents .right-side .topic-text{
+.content .right-side .topic-text{
     font-size: 23px;
     font-weight: 600;
     color: darkolivegreen;
@@ -13731,31 +13745,32 @@ background: darkslategray;
     background: green;
 }
 @media (max-width:950px){
-    .container2{
+    .container{
         width: 90%;
         padding: 30px 35px 40px 35px;
     }
 }
 @media (max-width:820px){
-    .container2{
+    .container{
         margin: 40px 0;
         height: 100%;
     }
-    .container2 .contents{
+    .container .content{
         flex-direction: column-reverse;
     }
-    .container2 .contents .left-side{
+    .container .content .left-side{
         width: 100%;
         flex-direction: row;
         margin-top: 40px;
         justify-content: center;
         flex-wrap: wrap;
     }
-    .container2 .contents .left-side::before{
+    .container .content .left-side::before{
         display: none;
     }
-    .container2 .contents .right-side{
+    .container .content .right-side{
         width: 100%;
         margin-left: 0;
     }
+}
 }
