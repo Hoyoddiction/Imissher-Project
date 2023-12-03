@@ -13631,8 +13631,7 @@
     font-size:21px;
 }
 }
-body{
-    min-height: 100vh;
+.body{
     width: 100%;
     background:linear-gradient(90deg,darkolivegreen,rgb(214, 240, 171));
     display: flex;
