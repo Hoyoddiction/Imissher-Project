@@ -13632,7 +13632,7 @@
 }
 }
 .body{
-    width: 100%;
+    width: 90%;
     background:linear-gradient(90deg,darkolivegreen,rgb(214, 240, 171));
     display: flex;
     align-items: center;
@@ -13745,7 +13745,7 @@ background: darkslategray;
         padding: 30px 35px 40px 35px;
     }
     .body{
-    width: 100%;
+    width: 90%;
     background:linear-gradient(90deg,darkolivegreen,rgb(214, 240, 171));
     display: flex;
     align-items: center;
@@ -13760,7 +13760,7 @@ background: darkslategray;
         height: 100%;
     }
     .body{
-    width: 100%;
+    width: 90%;
     background:linear-gradient(90deg,darkolivegreen,rgb(214, 240, 171));
     display: flex;
     align-items: center;
